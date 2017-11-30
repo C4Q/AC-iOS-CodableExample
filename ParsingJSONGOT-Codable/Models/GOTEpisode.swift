@@ -25,7 +25,6 @@ struct GOTEpisode: Codable {
     let summary: String
     let image: ImageWrapper
     let _links: LinkWrapper
-    let myBool: Bool
 }
 
 struct ImageWrapper: Codable {
